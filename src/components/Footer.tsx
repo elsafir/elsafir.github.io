@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <footer className="bg-white border-t py-6 text-center text-sm text-gray-600 mt-20">
-      <p>© {new Date().getFullYear()} ZC — All rights reserved.</p>
+      <p>© {new Date().getFullYear()} Alful Laila S — All rights reserved.</p>
       <div className="mt-2 flex justify-center space-x-4">
         <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer">LinkedIn</a>
