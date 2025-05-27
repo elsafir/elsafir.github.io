@@ -10,7 +10,7 @@ const projects = [
     title: "Company Profile Website",
     description: "Simple HTML/CSS website for local business.",
     category: "dev",
-    image: "/media/company-site.png",
+    image: "/E-learning App.png",
     link: "https://yourcompanysite.vercel.app", // 👈 contoh link ke situs yang dideploy
   },
   {
