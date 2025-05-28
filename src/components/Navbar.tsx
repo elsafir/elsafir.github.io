@@ -1,8 +1,7 @@
 // src/components/Navbar.tsx
-import { useState } from "react";
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
@@ -14,7 +13,7 @@ const Navbar = () => {
             <a href="#about" className="hover:text-indigo-600 transition">About</a>
           </li>
 
-          <li
+          {/* <li
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
             className="relative cursor-pointer"
@@ -30,8 +29,10 @@ const Navbar = () => {
                 </li>
               </ul>
             )}
+          </li> */}
+        <li>
+            <a href="#portfolio-dev" className="hover:text-indigo-600 transition">Portofolio</a>
           </li>
-
           <li>
             <a href="#contact" className="hover:text-indigo-600 transition">Contact</a>
           </li>
