@@ -49,12 +49,6 @@ const PortfolioSection: React.FC<Props> = ({ title, filter }) => {
             </div>
           ))}
         </div>
-
-        <div className="mt-16 text-center">
-          <p className="text-gray-600 max-w-xl mx-auto">
-            Click on any project to learn more about my process, tools I used, and how I approach problems and creativity.
-          </p>
-        </div>
       </div>
     </section>
   );
